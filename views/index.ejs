@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=title%></title>
+  </head>
+  <body>
+    <header style="margin: 2rem 1rem">
+      <nav style="display: flex; gap: 1rem">
+        <a href="/">Home</a><a href="/about">About</a><a href="/greet">User</a>
+      </nav>
+    </header>
+    <form action="/submit-form" method="POST">
+      <label for="message">Message:</label><input name="message" type="text" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
